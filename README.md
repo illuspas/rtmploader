@@ -12,4 +12,9 @@ https://github.com/illuspas/rtmploader/releases/download/v0.2.0/rtmploader_windo
 ### darwin
 https://github.com/illuspas/rtmploader/releases/download/v0.2.0/rtmploader_darwin_amd64.tar.gz
 ## Usage
+### rtmp play loader
 ./rtmploader -r rtmp://192.168.0.2/live/stream -c 10000
+
+### rtmp publish loader
+./rtmploader -r rtmp://192.168.0.2/live/stream -c 1000 -f file_name.flv
+>output rtmp://192.168.0.2/live/stream_0 --- rtmp://192.168.0.2/live/stream_999
